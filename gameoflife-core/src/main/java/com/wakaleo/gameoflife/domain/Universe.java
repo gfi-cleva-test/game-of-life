@@ -6,6 +6,7 @@ import static com.wakaleo.gameoflife.domain.Cell.DEAD_CELL;
 /**
  * A universe is a succession of grids over time.
  * Each new grid is generated from the previous one using the rules of the Game Of Life.
+ * This is some text to change things.
  */
 public class Universe {
 

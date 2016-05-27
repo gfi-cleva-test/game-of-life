@@ -10,7 +10,7 @@ public class GridWriter {
             for (Cell cell : row) {
                 printedGrid.append(cell.toString());
             }
-            // TODO: This simply masks the problem: why empty rows being passed?
+            // TODO: This simply masks the problem: why empty rows being passed? Adding additional info so I can push
             if (row.length > 0) {
                 printedGrid.append(LINE_SEPARATOR);
             }
